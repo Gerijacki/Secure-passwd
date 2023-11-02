@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://github.com/Gerijacki.png" type="image/x-icon">
+    <link type="stylesheet" href="images/logo.png"
+    <title>Generador de Contrasenyes</title>
+</head>
+<body>
+    <h1>Generador de Contrasenyes Segures</h1>
+    <form action="/generar" method="post">
+        <label for="longitud">Longitud:</label>
+        <input type="number" id="longitud" name="longitud" required><br><br>
+        <input type="checkbox" id="mayusculas" name="mayusculas">
+        <label for="mayusculas">Incloure majúscules</label><br>
+        <input type="checkbox" id="simbolos" name="simbolos">
+        <label for="simbolos">Incloure símbols</label><br><br>
+        <button type="submit">Generar Contrasenya</button>
+    </form>
+    {% if contrasena %}
+        <h2>Contrasenya generada: {{ contrasena }}</h2>
+    {% endif %}
+</body>
+</html>
