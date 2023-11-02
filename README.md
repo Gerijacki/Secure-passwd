@@ -1,4 +1,4 @@
-<h1 align="center">YouTube to MP4 Downloader</h1>
+<h1 align="center">Secure password generator</h1>
 
 <p align="center">
   <img src="https://github.com/Gerijacki.png" width="100" alt="Logo"/><br/>
